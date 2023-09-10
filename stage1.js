@@ -1,4 +1,5 @@
 const express = require('express');
+
 const stage1 = express();
 
 
@@ -21,6 +22,7 @@ stage1.get('/api', (req, res) => {
 
       res.json(response);
 })
+
 
 const PORT = process.env.PORT || 3000;
 
