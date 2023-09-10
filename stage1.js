@@ -6,8 +6,8 @@ stage1.get('/api', (req, res) => {
     const { slack_name, track } = req.query;
     const currentDay = new Date().toLocaleDateString('en-US', { weekday: 'long'});
     const utcTime = new Date().toISOString();
-    const githubFileUrl = 'https://github.com/username/repo/blob/main/file_name.ext';
-    const githubRepoUrl = 'https://github.com/username/repo';
+    const githubFileUrl = 'https://github.com/samuel99Oshiobughie/Stage1-NodeServer/blob/master/stage1.js';
+    const githubRepoUrl = 'https://github.com/samuel99Oshiobughie/Stage1-NodeServer';
 
     const response = {
         slack_name,
